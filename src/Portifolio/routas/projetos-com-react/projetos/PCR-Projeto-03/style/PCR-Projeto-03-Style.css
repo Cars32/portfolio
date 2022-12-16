@@ -1,0 +1,95 @@
+.PCR-P03-BodyDiv {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #F38AB2;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PCR-P03-BodyDiv ul {
+  list-style-type: none;
+}
+html .PCR-P03-BodyDiv a {
+  text-decoration: none;
+}
+.PCR-P03-BodyDiv h1,
+.PCR-P03-BodyDiv h2,
+.PCR-P03-BodyDiv h3,
+.PCR-P03-BodyDiv h4 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+.PCR-P03-BodyDiv h1 {
+  font-size: 3rem;
+}
+.PCR-P03-BodyDiv h2 {
+  font-size: 2rem;
+}
+.PCR-P03-BodyDiv h3 {
+  font-size: 3rem;
+}
+.PCR-P03-BodyDiv h4 {
+  font-size: 1.6rem;
+}
+.PCR-P03-BodyDiv p {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  color: black;
+}
+/*  global classes */
+
+/* section */
+.PCR-P03-Main {
+  width: 35rem;
+  height: auto;
+  background: white;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  box-shadow: 1px 1px 10px #85688b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.PCR-P03-Main h3 {
+  font-weight: normal;
+  text-transform: none;
+  margin-bottom: 2rem;
+}
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.person img {
+  width: 7.5rem;
+  height: 7.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.person h4 {
+  margin-bottom: 0.35rem;
+}
+.person p {
+  margin-bottom: 0;
+}
+.PCR-P03-Main button {
+  color: white;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: #F38AB2;
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+  border-radius: 6px;
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  cursor: pointer;
+}
